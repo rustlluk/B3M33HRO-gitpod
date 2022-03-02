@@ -1,4 +1,4 @@
-image: b3m33hro/labs:gitpod_icub
+image: b3m33hro/labs:gitpod_graspit
 ports:
 - port: 6080
   onOpen: notify
