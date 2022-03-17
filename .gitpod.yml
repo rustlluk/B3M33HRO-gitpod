@@ -1,7 +1,7 @@
 image: b3m33hro/labs:gitpod_graspit
 ports:
 - port: 6080
-  onOpen: notify
+  onOpen: open-preview
 - port: 8888
   onOpen: open-browser
 - port: 10000-20000
