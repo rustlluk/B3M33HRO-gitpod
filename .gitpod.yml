@@ -6,6 +6,6 @@ ports:
   onOpen: open-browser
 - port: 10000-20000
   onOpen: ignore
-workspaceLocation: "/root/"
+workspaceLocation: "."
 tasks:
 - command: start-vnc-session.sh
