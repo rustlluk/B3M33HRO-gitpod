@@ -1,7 +1,7 @@
 image: b3m33hro/labs:gitpod
 ports:
 - port: 6080
-  onOpen: notify
+  onOpen: open-preview
 - port: 8888
   onOpen: open-browser
 - port: 10000-20000
@@ -9,4 +9,3 @@ ports:
 workspaceLocation: "."
 tasks:
 - command: start-vnc-session.sh
-- command: gp await-port 6080 && gp preview $(gp url 6080)
