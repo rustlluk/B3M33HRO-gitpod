@@ -9,3 +9,4 @@ ports:
 workspaceLocation: "."
 tasks:
 - command: start-vnc-session.sh
+- command: ls
