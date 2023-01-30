@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir -p /workspace/data
+umount /workspace/data
+sshfs -o allow_other $1@taylor.felk.cvut.cz:/home.nfs/$1 /workspace/data
