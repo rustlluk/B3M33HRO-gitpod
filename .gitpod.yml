@@ -1,4 +1,4 @@
-image: b3m33hro/labs:gitpod
+image: b3m33hro/labs:new
 ports:
 - port: 6080
   onOpen: open-preview
@@ -8,4 +8,4 @@ ports:
   onOpen: ignore
 workspaceLocation: "."
 tasks:
-- command: start-vnc-session.sh
+- command: vnc && start-vnc-session.sh
