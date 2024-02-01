@@ -8,4 +8,4 @@ ports:
   onOpen: ignore
 workspaceLocation: "."
 tasks:
-- command: vnc && start-vnc-session.sh
+- command: start-vnc-session.sh
